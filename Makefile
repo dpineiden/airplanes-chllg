@@ -25,7 +25,7 @@ install:		## Install dependencies
 	pip install -r requirements.txt
 	poetry install
 
-STRESS_URL = http://127.0.0.1:8000 
+STRESS_URL = http://198.211.103.134
 .PHONY: stress-test
 stress-test:
 	# change stress url to your deployed app 
